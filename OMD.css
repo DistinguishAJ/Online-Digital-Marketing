@@ -17,18 +17,16 @@ body {
             box-sizing: border-box;
             background-color: #FFFFFF;
             color: var(--text-color);
+            line-height: 1.6;
+            padding: 10px;
+
         }
 
-.container {
+.header-container{
             max-width: 1200px;
             margin: 0 auto;
-            padding: 0 20px;
-        }
-
-.header {
             background-color: #FFFFFF;
             color: #FFFFFF;
-            padding: 20px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
