@@ -549,3 +549,24 @@ body {
             margin-top: 5px;
             line-height: 1.2;
         }
+
+
+.container2{
+            max-width: 1200px;
+            margin: auto;
+            padding: 60px 20px;
+            position: relative;
+            border-radius: 20px;
+        }
+
+.container2::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #2C5F2D;
+            border-radius: 20px;
+            z-index: -1;
+        }
