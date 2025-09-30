@@ -429,4 +429,52 @@ body {
             color: #FFFFFF;
             border-radius: 50%;
         }
+
+.image-gallery .overlay-circle .icon svg {
+            width: 20px;
+            height: 20px;
+            fill: #E8F5E9;
+        }
+
+.skills-progress .skill-item {
+            margin-bottom: 20px;
+        }
         
+.skills-progress .skill-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+.skills-progress .progress-bar-container {
+            background-color: #E0E0E0;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 15px;
+        }
+
+.skills-progress .progress-bar {
+            height: 100%;
+            background-color: #388E3C;
+            width: 0;
+            border-radius: 4px;
+            transition: width 1.5s ease-in-out;
+        }
+
+.skills-progress .progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: -8px;
+            transform: translateY(-50%);
+            height: 16%;
+            width: 16%;
+            background-color: #E8F5E9;
+            border: 2px solid #388E3C;
+            border-radius: 50%;
+        }        
+
