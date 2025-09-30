@@ -109,7 +109,7 @@ body {
             color: #388E3C;
         }
 
-        .hero-content h4 svg {
+.hero-content h4 svg {
             margin-right: 8px;
         }
 
@@ -391,3 +391,42 @@ body {
             filter: grayscale(100%);
             transition: transform 0.3s ease;
         }
+
+.image-card img:hover {
+            filter: grayscale(0%);
+            transform: scale(1.05);
+        }
+
+.image-gallery .overlay-circle {
+            position: absolute;
+            top: 5px;
+            left: 400px;
+            width: 80px;
+            height: 80px;
+            transform: translate(50%, -50%);
+            background-color: #388E3C;
+            color: #FFFFFF;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+
+.image-gallery .overlay-circle .icon {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFFF;
+            border-radius: 50%;
+        }
+        
