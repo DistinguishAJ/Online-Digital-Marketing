@@ -501,3 +501,51 @@ body {
             fill: #FFFFFF;
         }
 
+.stats-section {
+            background-color: #F5F5F5;
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 80px;
+            border: 1px solid #2E7D32;
+            border-radius: 10px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+.stats-item {
+            flex: 1;
+            align-items: center;
+            display: flex;
+            gap: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #388E3C;
+            min-width: 150px;
+        }
+
+.stats-item .icon {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E8F5E9;
+            border-radius: 50%;
+        }
+
+.stats-item .icon svg {
+            width: 24px;
+            height: 24px;
+            fill: #388E3C;
+        }
+
+.stats-item span {
+            font-size: 28px;
+            font-weight: 700;
+            color: #2E7D32;
+            display: block;
+            margin-top: 5px;
+            line-height: 1.2;
+        }
