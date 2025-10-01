@@ -1,0 +1,115 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+:root {
+            --primary-green: #388E3C;
+            --dark-green: #2E7D32;
+            --light-gray: #F5F5F5;
+            --text-color: #333;
+            --secondary-text-color: #666;
+            --white: #FFFFFF;
+            --black: #000000;
+        }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 10px;
+}
+
+
+.header-container{
+    max-width: 1200px
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    display: flax;
+    align-items: center;
+    color: #388E3C;
+}
+
+.logo img{
+    height: 40px;
+    margin-right: 0px;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li{
+    margin-left: 30px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul li a:hover{
+    color: #388E3C;
+}
+
+.btn-quote{
+    background-color: #388E3C;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: background-color 0.3 ease;
+}
+
+.btn-quote:hover{
+    background-color: #2E7D32;
+}
+
+
+
+
+
+
+
+
+
+/*.footer-item{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-item svg{
+    margin-right: 8px;
+    color: #F5F5F5;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 40px;
+    padding: 0 20px;
+}*/
+
+
