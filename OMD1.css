@@ -79,14 +79,95 @@ body {
     border-radius: 10px;
     font-weight: 500;
     transition: background-color 0.3 ease;
+    margin: 0 40px;
 }
 
 .btn-quote:hover{
     background-color: #2E7D32;
 }
 
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
 
+.hero-content{
+    max-width: 50%;
+    flex: ;
+}
 
+.hero-content h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #388E3C;
+}
+
+.hero-content h4 svg{
+    margin-right: 8px;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary{
+    background-color: #388E3C;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover{
+    background-color: #2E7D32;
+}
+
+.btn-primary svg{
+    margin-left: 5px;
+    align-items: center;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    color: #388E3C;
+    padding: 15px 30px;
+    border: 2px solid #388E3C;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover{
+    background-color: #388E3C;
+    color: #FFFFFF;
+}
 
 
 
